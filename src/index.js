@@ -87,30 +87,3 @@ function renderCountryMarkup(country) {
 
   divEl.innerHTML = markup;
 }
-
-//  result.map((country)=>{
-
-//       return `
-//         <li class="country-list__item">
-//         <img class="country-list__flag" src="${country.flags.svg}" alt="${country.flags.alt}">
-//           <p class="country-list__name">${country.name.common}</p>
-//       </li>
-//       `;
-//    }).join("")
-//   }
-// ).then((res)=>{
-//   listEl.insertAdjacentHTML("beforeend",res)
-// })
-// }
-
-// function createMarkup(evt) {
-//   const el = evt.map(({name})=>{
-//  return `
-//  <li class="country-list__item">
-//          <p class="country-list__name">${name}</p>
-//      </li>
-//      `;
-//   }).join("")
-
-//   return el;
-// }
